@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Coustard);
+
+/*Color palette*/
+.color-1 {
+    background: #B22E14;
+}
+
+.color-2 {
+    background: #C3FF50;
+}
+.color-3 {
+    background: #F3970C;
+}
+.color-4 {
+    background: black;
+}
+
+/*Texture and Patterns*/
+.pattern-1 {
+    background: url("http://previews.123rf.com/images/orson/orson1204/orson120400058/13309046-Vector-independence-day-badge-poster-retro-vintage-version-Stock-Vector.jpg") no-repeat;
+    background-size: cover;
+}
+
+.pattern-2 {
+    background: url("../img/starbucks.jpg");
+    background-size: contain;
+}
+.pattern-3 {
+    background: url("../img/starbucks.jpg");
+    background-size: contain;
+}
+
+/*Imgagery*/
+.imagery-1 img {
+   box-shadow: 10px 10px 5px blue;;
+               
+}
+.imagery-2 img {
+    box-shadow: 10px 10px 5px red;
+               
+}
+.imagery-3 img {
+    box-shadow: 10px 10px 5px red;
+                
+}
+
+
+/* Icon */
+.icon-1 {
+    background: url("/img/icon.png");
+    background-size: contain;   
+}
+.icon-2  {
+    background: url("/img/icon1.png");
+    background-size: contain; 
+    
+}
+.icon-3 {
+    background: url("/img/icon3.png");
+    background-size: contain; 
+    
+}
+
+/*Navigation*/
+/*L V and H A te*/
+.primary-nav{
+    padding-bottom: 2px;
+}
+nav li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    margin: 2px;
+}
+
+nav a:link{
+
+    background: red;
+/*    border-bottom: 2px solid blue;*/
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    
+    
+}
+
+nav a:focus {
+/*    border: 10px solid pink;*/
+}
+nav a:visited {
+    color: white;
+    
+}
+nav a:hover {
+
+    background: white;
+    color: red  
+}
+
+/*
+nav a:active {
+    background: black;
+} 
+*/
+
+/* typography */
+.typography{
+    font-family: 'Coustard', serif;
+    color: #14B27B;
+/*    font-variant: small-caps;*/
+}
+
+.typography button{
+    color: red;   
+}
+.typography h2  {
+    color: #DD50FF;
+    font-family: cursive;
+}
+.typography h3  {
+    color: #B29855;
+    font-family: sans-serif;
+}
+/* Paragraphs*/
+.typography p{
+    color: #CC9817;
+    font-family:  cursive;
+}
+

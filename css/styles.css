@@ -1,0 +1,34 @@
+/* My awesome style */
+
+/* Global, SiteWide, Boiler plate */
+body { 
+    background: url("../img/bgnetwork.jpg")
+}
+
+
+/* Header */
+header img {
+    width: 100px;
+}
+
+/* Navigation */
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav a:link,
+nav a:visited {
+
+  text-decoration: none;
+  background: red;
+ 
+}
+
+nav a:hover{
+  background: blue;
+}
+
+nav a:active{
+  background: yellow;
+}
