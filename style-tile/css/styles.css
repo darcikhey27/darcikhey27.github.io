@@ -49,16 +49,16 @@
 
 /* Icon */
 .icon-1 {
-    background: url("/img/icon.png");
+    background: url("style-tyle/img/icon.png");
     background-size: contain;   
 }
 .icon-2  {
-    background: url("/img/icon1.png");
+    background: url("style-tyle/img/icon1.png");
     background-size: contain; 
     
 }
 .icon-3 {
-    background: url("/img/icon3.png");
+    background: url("style-tile/img/icon3.png");
     background-size: contain; 
     
 }
