@@ -2,14 +2,14 @@
 
 /*Color palette*/
 .color-1 {
-    background: #B22E14;
+    background: #ff7a00;
 }
 
 .color-2 {
-    background: #C3FF50;
+    background: #7f3d00;
 }
 .color-3 {
-    background: #F3970C;
+    background: #ffa24c;
 }
 .color-4 {
     background: black;
@@ -17,30 +17,32 @@
 
 /*Texture and Patterns*/
 .pattern-1 {
-    background: url("http://previews.123rf.com/images/orson/orson1204/orson120400058/13309046-Vector-independence-day-badge-poster-retro-vintage-version-Stock-Vector.jpg") no-repeat;
+    background: url("https://www.drum.fit/wp-content/uploads/2016/03/cup-of-coffee.jpg");
     background-size: cover;
 }
 
 .pattern-2 {
-    background: url("../img/starbucks.jpg");
+    background: url("http://horizon-online.org/wp-content/uploads/2011/08/Course-Brochure-Pic-Cisco-Networking-Routing-Switching1.png");
     background-size: contain;
+   
 }
 .pattern-3 {
-    background: url("../img/starbucks.jpg");
+    background: url("https://www.dollar.com/~/media/Dollar/Images/Locations/sanfrancisco%20jpg.ashx");
     background-size: contain;
+    
 }
 
 /*Imgagery*/
 .imagery-1 img {
-   box-shadow: 10px 10px 5px blue;;
+
                
 }
 .imagery-2 img {
-    box-shadow: 10px 10px 5px red;
+ 
                
 }
 .imagery-3 img {
-    box-shadow: 10px 10px 5px red;
+   
                 
 }
 
@@ -72,10 +74,12 @@ nav li{
     list-style: none;
     margin: 2px;
 }
-
+nav a{
+    color: #CC6200;
+}
 nav a:link{
 
-    background: red;
+    background: #7f5126;
 /*    border-bottom: 2px solid blue;*/
     border-radius: 5px;
     text-decoration: none;
@@ -93,8 +97,8 @@ nav a:visited {
 }
 nav a:hover {
 
-    background: white;
-    color: red  
+    background: #FFA24C;
+    color: red;  
 }
 
 /*
@@ -113,8 +117,11 @@ nav a:active {
 .typography button{
     color: red;   
 }
+.typography h1{
+    color: #7f5126;
+} 
 .typography h2  {
-    color: #DD50FF;
+    color: #cc6200;
     font-family: cursive;
 }
 .typography h3  {
