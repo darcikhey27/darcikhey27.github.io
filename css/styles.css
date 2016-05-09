@@ -1,8 +1,8 @@
 /* My awesome style */
-
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
 /* Global, SiteWide, Boiler plate */
 body { 
-    background: url("../img/bgnetwork.jpg")
+    background: url("../img/background.jpg")
 }
 
 
@@ -31,4 +31,9 @@ nav a:hover{
 
 nav a:active{
   background: yellow;
+}
+blockquote{
+font-family: 'IM Fell Double Pica', serif;
+    font-size: 2em;
+
 }
