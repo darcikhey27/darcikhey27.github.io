@@ -2,103 +2,144 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Darci Khey</title>
-    
-     <link rel="stylesheet" href="css/grid.css">
+    <title>My Resme</title>
+    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/styles.css">
     
 </head>
 <body>
- 
-  <header class="grid-container">
-  
-  <section class="grid-6">
-      <img src="http://placehold.it/100x100" alt="">
-  </section>
+   <header id="header" class="grid-container">
    
-   <section class="grid-6">
-<!--       <h1>Darci K Saucedo</h1>-->
+<!--  Bio starts here-->
+   <!--  My Bio picture -->
+    <article id="pic" class="grid-6">
+       <img src="img/me.jpg" alt="Pic of Darci ">
+    </article>
+    
+    <article id="bio" class="grid-6">
+       <h2>My Bio</h2> 
+       <p>who are you, My Name is Darci Khey Saucedo, I'm a Computer         Science Major at Easter Washington University.</p>
+       </article>
+    </header>
+    
+    <aside class="grid-container">
+    <grid class="grid-12">
+        <blockquote>Mind Wide Open!  </blockquote>
+    </grid>
+    
+    
+    </aside>
+<!--   end first row -->
+
+
+    
+<!--   start second row -->
+    <section  class="grid-container">
+        
+        
+        <article id="education" class="grid-6">
+            <h3>Education</h3>
+            <ul>
+                <li>A.A.S in Network Desing and Administration 2015 </li>
+                <li>BS in Computer Science Spring 2017</li>
+            </ul>
+            <p>I achieved as A.A.S in Network Design and Administration from Spokane Community College. I'm persuing my Bachelors of Science in Computer Science at Easter Washington University</p>
+        </article>
+        
+        
+        
+        <article id="certs" class="grid-6">
+          <h3>Certifications</h3>
+           <img src="img/ccna.jpg" alt="Cisco logo" />
+           <img src="img/java.jpg" alt="Oracle logo" />
+           <img src="img/linux.jpg" alt="Linux logo" />
+           
+            <p>While I was at Spokane Community College, I was able to pass the Cisco Certified Netork Associate exam. Thus becoming a CCNA Route/Switch certified. I have also completed the CompTIA A+ certification. I'm currently working on the Oracle Certified Professional Java Programmer certification and the Linux+ certification</p>
+        </article>
+    </section>
+<!--    End second row-->
+
+    
+    
+<!--  Start third row-->
+   <section id="tech-container" class="grid-container">
+      
+       <article id="tech-1" class="grid-4" >
+           <h4>Networking / Security</h4>
+           <ul>
+               <li>CCNA certifed</li>
+               <li>Small sized LANs and WANs</li>
+               <li>IP Services, DHCP, NAT</li>
+               <li>Security services, ACLs, ASA Firewall, IOS firewal</li>
+               <li>Cisco ASA 5505 Firewalls</li>
+               <li>Cisco ISR Routers</li>
+               <li>Cisco catalyst switches</li>
+           </ul>
+       </article>
        
-       <nav>
-          <ul>
-            <li><a href="#">Link A</a></li>
-            <li><a href="#">Link B</a></li>
-            <li><a href="#">Link C</a></li>
-          </ul>
-    </nav>
        
-   </section>
-  </header>
-  
-  <article class="grid-container">
-       <div class="grid-6">
-           <img src="img/me.jpg" alt="">
-       </div>
        
-       <div class="grid-6">
-           <h2>Bio</h2>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis dignissimos, numquam pariatur! Veritatis quia recusandae porro, dolor voluptatem nihil dolorum ea fuga, iste nulla labore inventore neque et a quod!</p>
-       </div>
-   </article>
-   <aside class="grid-container">
-       <blockquote>insert block quote here
-       </blockquote>
-   </aside>
-   
-   <article class="grid-container">
-     <section class="grid-3">
-         <h3>Education</h3>
-         <ul>
-             <li>College 2016 </li>
-             <li>High School</li>
-             
-         </ul>
-     </section>
-     
-    <section class="grid-3">
-         <h3>Experience</h3>
-         <h4>Employer A </h4>
-         <p>Job Tittle</p>
-         <dl>
-             <dt>Task A</dt>
-             <dd>Description for task A</dd>
-             <dt>Taks B</dt>
-             <dd>Description for Task B</dd>
-         </dl>
+       <article class="grid-4" id="tech-2" >
+           <h4>Software / Operating Systems</h4>
+           <lu>
+                <li>Cisco configuration Professional</li>
+               <li>GNS3</li>
+               <li>Visio</li>
+               <li>Wireshark</li>
+               <li>Apache</li>
+               <li>Ubuntu Server</li>
+               <li>Windows 2008, 2012 Server</li>
+           </lu>
+       </article>
+       
+       <article class="grid-4" id="tech-3" >
+           <h4>Programing Languages / Scripting</h4>
+           <ul>
+               <li>Java core language</li>
+               <li>Ruby for network automation (Cheff)</li>
+               <li>HTML/CSS for web development </li>
+               <li>Bash, powershell for OS scripting</li>
+               <li>Cisco IOS scripting with Tcl</li>
+           </ul>
+           
+       </article>
+   </section> 
+<!--   end third row -->
+
+
+
+<!--   begin fourth row -->
+   <section  class="grid-container">
+       
+       <article id="volunteer" class="grid-6">
+           <h3>Volunteer work</h3>
+           <h4>American Red Cross</h4>
+           <h5>Disaster Services Technology Technician</h5>
+           <dl>
+               <dt>Deploy during disasters</dt>
+               <dd>Travel around the US to set up emegency communications</dd>
+               <dt>Train for disasters</dt>
+               <dd>Keep up to date with all the latest technologies during disasters</dd>
+           </dl>
+           <h4>Spokane Public Schools</h4>
+           <h5>Technical Mentor</h5>
+           <dl>
+               <dt>Computer security mentor</dt>
+               <dd>Help High School students train in computer security concepts</dd>
+               <dt>Cyber-security mentor</dt>
+               <dd>Train High School students for the AirForce CyberPatriots competition</dd>
+           </dl>
          
-         <h4>Employer B </h4>
-         <p>Job Tittle</p>
-         <dl>
-             <dt>Task A</dt>
-             <dd>Description for task A</dd>
-             <dt>Taks B</dt>
-             <dd>Description for Task B</dd>
-         </dl>
-     </section>
-     
-    <section class="grid-3">
-         <h3>Skills</h3>
-         <h4>Software</h4>
-         <ol>
-             <li>not photoshop</li>
-             <li>asdfsda</li>
-             <li>asd</li>
-         </ol>
-         <h4>Branding</h4>
-         <ol>
-             <li>Indentiry</li>
-             <li>Research</li>
-             <li>Concepasdf</li>
-             <li>asdfdfas</li>
-         </ol>
-     </section>
-      <section class="grid-3">
-          <h3>Extra / Supplemental / Addendum </h3>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore repellendus, asperiores, ratione iusto recusandae officia tempora! Consequatur assumenda consequuntur fugit error sequi. Vitae odit sequi deleniti dolorem dolores, quaerat atque!
-          
-      </section>
+       </article>
        
-   </article>
-   
+       <article id="goals" class="grid-6">
+           <h3>Goals</h3>
+           <p>My carrer and professional goals are to graduate from school and go work for Amazon 
+           as a network developer engineer or a network security enginner.</p>
+           
+       </article>
+   </section>
+
+        
 </body>
 </html>
