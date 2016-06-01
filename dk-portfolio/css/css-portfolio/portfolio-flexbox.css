@@ -1,0 +1,112 @@
+/* body styes */
+body {
+    background: gray;
+}
+span{
+    color: greenyellow;
+}
+
+
+/* Header styles */
+.page-header-container {
+    display: flex;
+    flex-direction: row;
+}
+.logo {
+    background: #abc;
+    flex: 1;
+}
+.nav-top-right {
+    background: #cdf;
+    flex: 1;
+}
+
+/* main body  */
+.main-container {
+    display: flex;
+}
+/*left nav styles */
+.leftside-nav {
+    background: #efa;
+    flex: 2;
+}
+/* picture */
+.pic {
+    background: #faa;
+    flex: 5;
+}
+/* bio  */
+.bio {
+    background: #a9f;
+    flex: 5;
+}
+
+/******************* RESUME STYLES **********************/
+.resume-container{
+    display: flex;
+}
+.education {
+    background: red;
+    flex: 1;
+}
+.certs{
+    flex: 1;
+    background: pink;
+}
+
+/************** Skills styles *********************/
+.skills-container{
+    display: flex;
+}
+.network-security{
+    background: #ab2;
+    flex: 1;
+}
+.software-os{
+    background: #acd;
+    flex: 1;
+}
+.programming{
+    background: #efa;
+    flex: 1;
+}
+
+/*************** work / volunteer */
+.work-container {
+    display: flex;
+}
+.work-experience{
+    background: #aad;
+    flex: 1;
+}
+.volunteer{
+    background: #abd;
+    flex: 1;
+}
+
+/*************** footer layout */
+.footer-container {
+    display: flex;
+}
+.goals{
+    background: green;
+    flex: 3;
+}
+.footer-nav{
+    background: #cdb;
+    flex: 1;
+/*    display: flex*/
+}
+.footer-nav ul{
+    display: flex;
+    flex-direction: row;
+    background: orange;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-nav ul li{
+    flex: 1;
+    padding: 4px;
+
+}
