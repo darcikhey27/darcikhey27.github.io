@@ -1,7 +1,12 @@
 /* body styes */
 body {
+    display: flex;
+    flex-direction: column;
+    
+/*
     width: 1000px;
     margin: 0 auto;
+*/
     
     background: gray;
 }
@@ -19,6 +24,14 @@ span{
     background: #abc;
     flex: 1;
 }
+
+/* Nav top right */
+.nav-top-right ul{
+    display: flex;
+}
+.nav-top-right ul li {
+    flex: 1;
+}
 .nav-top-right {
     background: #cdf;
     flex: 1;
@@ -31,13 +44,37 @@ span{
 /*left nav styles */
 .leftside-nav {
     background: #efa;
-    flex: 2;
+    flex: 1;
+/*   for the ul */
+    display: flex;
 }
+
+.leftside-nav ul a {
+    text-decoration: none;
+}
+.leftside-nav ul {
+    padding-left: 0px;
+    list-style: none;
+    
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-around;
+}
+.leftside-nav ul li {
+    background: white;
+    flex: 1;
+}
+
 /* picture */
+.pic img {
+	width: 100%;
+}
 .pic {
     background: #faa;
     flex: 5;
 }
+
 /* bio  */
 .bio {
     background: #a9f;
