@@ -1,0 +1,155 @@
+
+
+.header-nav{
+    background: pink;
+}
+.header-logo{
+    background: #abc;
+}
+.nav {
+    background: #cde;
+}
+.pic {
+    background: cadetblue;
+}
+.bio {
+    background: darkgray;
+}
+/* Flex testing */
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.flex1{
+    background: moccasin;
+    
+}
+.flex2{
+    background: cornflowerblue;
+}
+
+.certs img{
+    width: 130px;
+}
+/* *************** copied styles **************************** */
+
+
+body{
+    background: #FDF3E7;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+
+
+#header{
+    background: #FDF3E7;
+}
+#header h2,
+#header p{
+    color: #c63d0f;
+}
+#bio h2{
+    color: #c63d0f;
+    font-size: 2.1em;
+}
+#education{
+    /*    background: yellow;*/
+
+}
+#education h3,
+#certs h3 {
+    font-size: 1.5em;
+    color: #c63d0f;
+}
+#certs img{
+
+}
+#education,
+#certs  {
+    color: #3B3738;
+}
+#tech-container{
+    background: #FDF3E7;
+}
+#tech-container li {
+    color: #3B3738;
+}
+#tech-1 h4,
+#tech-2 h4,
+#tech-3 h4 {
+    font-size: 1.2em;
+    color: #c63d0f;
+}
+#volunteer h3,
+#goals h3 {
+    color: #c63d0f;
+}
+#volunteer h4,h5{
+    color: #3B3738;
+}
+#volunteer dt
+{
+    color: #c63d0f;
+}
+#volunteer dd
+{
+    color: #3B3738;
+}
+/* col 2 */
+#certs{
+    /*    background: red;*/
+}
+section img{
+    width: 100px;
+}
+
+/* row 3*/
+/* col 1 */
+#tech-1 {
+    /*    background: white;*/
+
+}
+#tech-2 {
+    /*    background: white;*/
+
+}
+#tech-3 {
+    /*    background: white;*/
+
+}
+blockquote{
+    text-align: center;
+    font-size: 2em;
+    color: #3B3738;
+    margin-top: 20px;
+}
+
+
+
+
+
+/*--------------------------------------------------------------*/
+
+
+
+
+
+
+@media (min-width: 1px) and (max-width: 767px)  {
+
+    body{
+        background: palevioletred;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .flex1{
+        order: 1;
+    }
+    .flex2{
+        order: 0;
+    }
+
+}

@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/grid.css" type="text/css">
-    <link rel="stylesheet" href="main/main-styles.css" type="text/css">
+    <link rel="stylesheet" href="main/css/main-styles.css" type="text/css">
     <title>Main page </title>
 </head>
 <body>
@@ -40,24 +41,125 @@
             aperiam, dignissimos in itaque iure labore minima mollitia neque nesciunt non, obcaecati rem ut veritatis?
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut autem consequuntur dolor dolore doloribus,
             eius est et id impedit ipsa, iure minus non ratione saepe sequi suscipit vero voluptas.</p>
+    </div>
 
-    </div>
-    <div class="grid-container flex">
-        <div class="grid-6 flex1">
-            <h2>flex1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur deleniti est ex maiores minima quis unde! Aspernatur hic in molestias numquam perspiciatis quisquam sed sequi tempora. Ad neque provident vel.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci culpa earum ex quod ratione reiciendis ullam unde? Aperiam cumque dolorem nobis repudiandae tempora velit. Aliquid eius magnam nihil pariatur qui.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae debitis deserunt ea, inventore maiores natus nemo nesciunt nisi qui reprehenderit rerum sequi similique tenetur unde, vel. Asperiores doloremque ipsa temporibus.
-            </p>
-        </div>
-        <div class="grid-6 flex2">
-            <h2>flex2</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi cupiditate doloremque doloribus ducimus, error illo in iste laborum magni minima nemo nulla quae quam, quos repellat reprehenderit sunt totam.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci, aliquam aliquid, cum dolores eveniet illum, iste laudantium magnam maiores nisi officiis omnis optio quas qui quo reprehenderit sit ut.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at doloremque ducimus fuga illum labore, magni natus necessitatibus perferendis quas sed soluta suscipit! Accusamus consectetur id molestiae? Cupiditate, facere, minima.
-            </p>
-        </div>
-    </div>
+</div>
+
+    <aside class="grid-container">
+        <article class="grid-12">
+            <blockquote>Mind Wide Open!</blockquote>
+        </article>
+    </aside>
+    <!--   end first row -->
+
+
+
+    <!--   start second row -->
+    <section  class="grid-container">
+
+        <article id="education" class="grid-6">
+            <h3>Education</h3>
+            <ul>
+                <li>A.A.S in Network Design and Administration 2015 </li>
+                <li>BS in Computer Science Spring 2017</li>
+            </ul>
+            <p>I achieved as A.A.S in Network Design and Administration from Spokane Community College. I'm pursuing my Bachelors of Science in Computer Science at Easter Washington University</p>
+        </article>
+
+
+
+        <article id="certs" class="grid-6 certs">
+            <h3>Certifications</h3>
+            <img src="img/ccna.jpg" alt="Cisco logo" />
+            <img src="img/java.jpg" alt="Oracle logo" />
+            <img src="img/linux.jpg" alt="Linux logo" />
+
+            <p> While I was at Spokane Community College, I was able to clear the Cisco Certified Network Associate exam and thus to become a CCNA Route/Switch certified. I have also completed the CompTIA A+ certification. I'm currently working on the Oracle Certified Professional Java Programmer certification and the Linux+ certification.  </p>
+        </article>
+    </section>
+    <!--    End second row-->
+
+
+
+    <!--  Start third row-->
+    <section id="tech-container" class="grid-container">
+
+        <article id="tech-1" class="grid-4" >
+            <h4>Networking / Security</h4>
+            <ul>
+                <li>CCNA certifed</li>
+                <li>Small sized LANs and WANs</li>
+                <li>IP Services, DHCP, NAT</li>
+                <li>Security services, ACLs, IOS firewall</li>
+                <li>Cisco ASA 5505 Firewall</li>
+                <li>Cisco ISR Routers</li>
+                <li>Cisco catalyst switches</li>
+            </ul>
+        </article>
+
+
+
+        <article class="grid-4" id="tech-2" >
+            <h4>Software / Operating Systems</h4>
+            <lu>
+                <li>Cisco configuration Professional</li>
+                <li>GNS3</li>
+                <li>Visio</li>
+                <li>Wireshark</li>
+                <li>Apache</li>
+                <li>Ubuntu Server</li>
+                <li>Windows 2008, 2012 Server</li>
+            </lu>
+        </article>
+
+        <article class="grid-4" id="tech-3" >
+            <h4>Programing Languages / Scripting</h4>
+            <ul>
+                <li>Java core language</li>
+                <li>Ruby for network automation (Cheff)</li>
+                <li>HTML/CSS for web development </li>
+                <li>Bash, powershell for OS scripting</li>
+                <li>Cisco IOS scripting with Tcl</li>
+            </ul>
+
+        </article>
+    </section>
+    <!--   end third row -->
+
+
+
+    <!--   begin fourth row -->
+    <section  class="grid-container">
+
+        <article id="volunteer" class="grid-6">
+            <h3>Volunteer work</h3>
+            <h4>American Red Cross</h4>
+            <h5>Disaster Services Technology Technician</h5>
+            <dl>
+                <dt>Deploy during disasters</dt>
+                <dd>Travel around the US to set up emegency communications</dd>
+                <dt>Train for disasters</dt>
+                <dd>Keep up to date with all the latest technologies during disasters</dd>
+            </dl>
+            <h4>Spokane Public Schools</h4>
+            <h5>Technical Mentor</h5>
+            <dl>
+                <dt>Computer security mentor</dt>
+                <dd>Help High School students train in computer security concepts</dd>
+                <dt>Cyber-security mentor</dt>
+                <dd>Train High School students for the AirForce CyberPatriots competition</dd>
+            </dl>
+
+        </article>
+
+        <article id="goals" class="grid-6">
+            <h3>Goals</h3>
+            <p>My carrer and professional goals are to graduate from school and go work for Amazon
+                as a network developer engineer or a network security enginner.</p>
+
+        </article>
+    </section>
+
 </div>
 
 
