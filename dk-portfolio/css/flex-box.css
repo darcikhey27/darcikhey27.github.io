@@ -69,6 +69,8 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
 /* Styles */
     body {
+        margin: 0 auto;
+        font-size: 4em;
         background: silver;
     }
     .click ul li h2 {
