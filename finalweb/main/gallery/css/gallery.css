@@ -131,7 +131,9 @@ html,body{margin: 0;padding: 0;width: 1280px;height: 760px;background: #000;over
 .front {background: #151515;}
 .back {background: #191919;}
 
-.fl-1 .front{background: url('http://lorempixel.com/400/400/nature/1');}
+.fl-1 .front {
+    background: url("../img/ccna.jpg")
+}
 .fl-1 .back {background: url('http://lorempixel.com/400/400/nature/2');}
 .fl-2 .front{background: url('http://lorempixel.com/400/400/nature/3');}
 .fl-2 .back {background: url('http://lorempixel.com/400/400/nature/4');}
