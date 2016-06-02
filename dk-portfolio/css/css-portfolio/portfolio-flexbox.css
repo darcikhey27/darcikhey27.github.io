@@ -10,6 +10,9 @@ body {
     
     background: gray;
 }
+.resume-h2 {
+    text-align: center;
+}
 span{
     color: greenyellow;
 }
@@ -67,6 +70,9 @@ span{
 }
 
 /* picture */
+.certs img {
+    width: 100px;;
+}
 .pic img {
 	width: 100%;
 }
@@ -78,6 +84,7 @@ span{
 /* bio  */
 .bio {
     background: #a9f;
+    line-height: 2.5em;
     flex: 5;
 }
 
