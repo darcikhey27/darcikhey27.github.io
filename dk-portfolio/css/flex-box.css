@@ -71,6 +71,9 @@ and (max-device-width : 480px) {
     body {
         background: silver;
     }
+    .click ul li h2 {
+        font-size: 3em;
+    }
 }
 
 /* Smartphones (landscape) ----------- */
