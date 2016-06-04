@@ -1,4 +1,12 @@
-html,body{margin: 0;padding: 0;width: 1280px;height: 760px;background: #000;overflow: hidden;}
+html,body{
+    margin: 0;
+    padding: 0;
+    /*color: white;*/
+    /*width: 1280px;*/
+    /*height: 760px;*/
+    background: #000;
+    overflow: hidden;
+}
 /* entire container, keeps perspective */
 .flip-container {
     -webkit-perspective: 1000;
@@ -102,6 +110,10 @@ html,body{margin: 0;padding: 0;width: 1280px;height: 760px;background: #000;over
 */
 .vertical.flip-container {
     position: relative;
+}
+.grid-4 figure {
+    margin: 0;
+    padding: 0;
 }
 
 .vertical .back {
