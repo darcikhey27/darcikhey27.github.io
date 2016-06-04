@@ -1,6 +1,29 @@
-.flex-container{
+
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: black;
+    color: ghostwhite;
+}
+.flex-container-top{
     display: flex;
     flex-wrap: wrap;
+    border: 3px solid red;
+
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+.flex-container-mid{
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid greenyellow;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+.flex-container-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid red;
     /*justify-content: center;*/
     /*align-items: center;*/
 }
@@ -10,10 +33,80 @@
 .item-4,
 .item-5,
 .item-6,
-.item-7 {
+.item-7,
+.item-8,
+.item-9,
+.item-10,
+.item-11,
+.item-12,
+.item-13,
+.item-14,
+.item-15,
+.item-16,
+.item-17{
     flex: 1;
+    margin: 0;
+
 }
-img{
-    width: 220px;
-    border: 5px solid antiquewhite;
+
+img {
+    width: 100%;
+}
+/*img{*/
+    /*width: 320px;*/
+
+/*}*/
+figure img:hover {
+    border: 1px solid red;
+}
+
+.header{
+    background: red;
+}
+header h2 {
+
+    color: greenyellow;
+    font-size: 3.5em;
+    font-family: monospace;
+}
+.pound{
+    color: red;
+}
+.flex-container-header ul a{
+    text-decoration: none;
+}
+.flex-container-header ul li {
+    list-style: none;
+}
+@keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
+@-webkit-keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
+.blink {
+    animation: blink 1s step-start 0s infinite;
+    -webkit-animation: blink 1s step-start 0s infinite;
+}
+@media (min-width: 1px) and (max-width: 767px)  {
+    .flex-container-bottom
+    .flex-container-mid,
+    .flex-container-top{
+        flex-direction: column;
+    }
+    body{
+        font-size: larger;
+    }
+
+
+}
+@media (min-width: 1200px) {
+    body {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
 }
