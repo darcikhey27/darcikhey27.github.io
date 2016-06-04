@@ -1,11 +1,11 @@
 
-
 body {
     font-family: 'Roboto Condensed', sans-serif;
     background: black;
     color: ghostwhite;
 }
-.flex-container-top{
+
+.flex-container-top {
     display: flex;
     flex-wrap: wrap;
     border: 3px solid red;
@@ -13,20 +13,23 @@ body {
     /*justify-content: center;*/
     /*align-items: center;*/
 }
-.flex-container-mid{
+
+.flex-container-mid {
     display: flex;
     flex-wrap: wrap;
     border: 3px solid greenyellow;
     /*justify-content: center;*/
     /*align-items: center;*/
 }
-.flex-container-bottom{
+
+.flex-container-bottom {
     display: flex;
     flex-wrap: wrap;
     border: 3px solid red;
     /*justify-content: center;*/
     /*align-items: center;*/
 }
+
 .item-1,
 .item-2,
 .item-3,
@@ -43,7 +46,7 @@ body {
 .item-14,
 .item-15,
 .item-16,
-.item-17{
+.item-17 {
     flex: 1;
     margin: 0;
 
@@ -52,58 +55,68 @@ body {
 img {
     width: 100%;
 }
+
 /*img{*/
-    /*width: 320px;*/
+/*width: 320px;*/
 
 /*}*/
 figure img:hover {
     border: 1px solid red;
 }
 
-.header{
+.header {
     background: red;
 }
+
 header h2 {
 
     color: greenyellow;
     font-size: 3.5em;
     font-family: monospace;
 }
-.pound{
+
+.pound {
     color: red;
 }
-.flex-container-header ul a{
+
+.flex-container-header ul a {
     text-decoration: none;
 }
+
 .flex-container-header ul li {
     list-style: none;
 }
+
 @keyframes blink {
     50% {
         opacity: 0.0;
     }
 }
+
 @-webkit-keyframes blink {
     50% {
         opacity: 0.0;
     }
 }
+
 .blink {
     animation: blink 1s step-start 0s infinite;
     -webkit-animation: blink 1s step-start 0s infinite;
 }
-@media (min-width: 1px) and (max-width: 767px)  {
+
+@media (min-width: 1px) and (max-width: 767px) {
     .flex-container-bottom
     .flex-container-mid,
-    .flex-container-top{
+    .flex-container-top {
         flex-direction: column;
     }
-    body{
+
+    body {
         font-size: larger;
     }
 
-
 }
+
 @media (min-width: 1200px) {
     body {
         max-width: 1100px;
