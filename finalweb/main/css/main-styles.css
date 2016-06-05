@@ -1,154 +1,194 @@
+body {
+    background: #EFEFEF;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*Header styles */
+@keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
+@-webkit-keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
+.header-wrap{
+    margin-bottom: 5px;
+}
+.blink {
+    animation: blink 1s step-start 0s infinite;
+    -webkit-animation: blink 1s step-start 0s infinite;
+}
+.pound{
+    color: black;
+}
+.click {
+    /*background: #A9A9A9;*/
+    text-align: center;
+}
+.click a{
+    color: #FF383F;
+    font-size: 1.8em;
+    font-family: monospace;
+    text-decoration: none;
+    outline: none;
+}
+
+/* header-nav styles */
+
+.header-nav {
+    height: 40px;
+    /*background: #A9A9A9;*/
+    text-align: center;
+    margin: 0;
+}
+.header-nav li{
+    background: white;
+    border-radius: 10%;
+    display: inline-block;
+    font-size: 1.4em;
+    list-style: none;
+    letter-spacing: 1px;
+    padding-top: 9px;
+
+}
+.header-nav li a{
+    padding-left: 3px;
+    text-decoration: none;
+    color: black;
+}
+.header-nav li a:hover{
+
+    color: #ff383f;
+
+}
+.header-nav li a:hover:not(.active) {
+
+}
+
+.active {
+    background-color:#4CAF50;
+}
+/*-------------------------------------*/
 
 
-.header-nav{
-    background: pink;
-}
-.header-logo{
-    background: #abc;
-}
-.nav {
-    background: #cde;
-}
-.pic {
-    background: cadetblue;
-}
+/*BIO styles*/
 .bio {
-    background: darkgray;
-}
-/* Flex testing */
-.flex{
-    display: flex;
-    flex-direction: row;
-}
-.flex1{
-    background: moccasin;
-    
-}
-.flex2{
-    background: cornflowerblue;
-}
+    line-height: 2em;
 
-.certs img{
+}
+.bio h2{
+    color: #ff383f;
+    font-size: 1.5em;
+}
+/*-----------------------------*/
+
+
+#mid-h2{
+    text-align: center;
+    color: #ff383f;
+}
+/* Certs and Education styles*/
+.ed-certs{
+
+}
+.certs img {
     width: 130px;
 }
-/* *************** copied styles **************************** */
-
-
-body{
-    background: #FDF3E7;
+.education h3,
+.certs h3 {
+    font-size: 1.5em;
+    color: #ff383f;
+}
+.education,
+.certs {
+    color: #3B3738;
+}
+.bio p,
+.education li,
+.education p,
+.certs p,
+#tech-1 li,
+#tech-2 li,
+#tech-3 li,
+#volunteer dt,
+#goals p {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 
 
 
+/*---------------------------------------------*/
 
-#header{
-    background: #FDF3E7;
-}
-#header h2,
-#header p{
-    color: #c63d0f;
-}
-#bio h2{
-    color: #c63d0f;
-    font-size: 2.1em;
-}
-#education{
-    /*    background: yellow;*/
+
+/* *************** copied styles **************************** */
+
+
+
+#tech-container {
 
 }
-#education h3,
-#certs h3 {
-    font-size: 1.5em;
-    color: #c63d0f;
-}
-#certs img{
 
-}
-#education,
-#certs  {
-    color: #3B3738;
-}
-#tech-container{
-    background: #FDF3E7;
-}
-#tech-container li {
-    color: #3B3738;
-}
+/*#tech-container li {*/
+    /*color: #3B3738;*/
+/*}*/
+
 #tech-1 h4,
 #tech-2 h4,
 #tech-3 h4 {
     font-size: 1.2em;
-    color: #c63d0f;
+    color: #ff383f;
 }
+
 #volunteer h3,
 #goals h3 {
-    color: #c63d0f;
+    color: #ff383f;
 }
-#volunteer h4,h5{
+
+#volunteer h4, h5 {
     color: #3B3738;
 }
-#volunteer dt
-{
-    color: #c63d0f;
+
+#volunteer dt {
+    color: #ff383f;
 }
-#volunteer dd
-{
+
+#volunteer dd {
     color: #3B3738;
 }
-/* col 2 */
-#certs{
-    /*    background: red;*/
-}
-section img{
+
+
+section img {
     width: 100px;
 }
 
-/* row 3*/
-/* col 1 */
-#tech-1 {
-    /*    background: white;*/
-
-}
-#tech-2 {
-    /*    background: white;*/
-
-}
-#tech-3 {
-    /*    background: white;*/
-
-}
-blockquote{
+blockquote {
     text-align: center;
     font-size: 2em;
     color: #3B3738;
     margin-top: 20px;
 }
 
-
-
-
-
 /*--------------------------------------------------------------*/
 
+@media (min-width: 1px) and (max-width: 767px) {
 
+    body {
 
-
-
-
-@media (min-width: 1px) and (max-width: 767px)  {
-
-    body{
-        background: palevioletred;
     }
-    .flex{
+
+    .flex {
         flex-direction: column;
     }
-    .flex1{
+
+    .flex1 {
         order: 1;
     }
-    .flex2{
+
+    .flex2 {
         order: 0;
     }
 

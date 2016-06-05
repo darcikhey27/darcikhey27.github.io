@@ -1,36 +1,46 @@
 body{
     background: black;
+
 }
-.click {
+.grid-flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
-
-    /*
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    */
 }
+
 .header{
-    background: red;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: black;
+    color: darkgray;
+    display: flex;
+}
+.header h4{
+    margin-left: auto;
 }
 section h2 {
 
-    color: greenyellow;
-    font-size: 3.5em;
-    font-family: monospace;
 
 }
 .pound{
     color: red;
 }
-.click ul a{
-    text-decoration: none;
-}
-.click ul li {
-    list-style: none;
-}
+.click {
+    padding-top: 50%;
+    text-align: center;
 
+}
+.click a{
+    color: greenyellow;
+    font-size: 3.5em;
+    font-family: monospace;
+    text-decoration: none;
+
+}
+.header,
+.click{
+    flex: 1;
+}
 
 @keyframes blink {
     50% {
@@ -45,4 +55,36 @@ section h2 {
 .blink {
     animation: blink 1s step-start 0s infinite;
     -webkit-animation: blink 1s step-start 0s infinite;
+}
+/* media queries*/
+@media (min-width: 1px) and (max-width: 767px) {
+
+    /*body {*/
+        /*font-size: larger;*/
+    /*}*/
+    .grid-flex{
+        display: flex;
+        flex-direction:column;
+    }
+    .header{
+        order: 0;
+        color: darkgray;
+    }
+    .click{
+        order: 1;
+        color: green;
+    }
+    .click{
+        font-size: 90%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    body {
+        max-width: 1100px;
+        margin: 0 auto;
+
+    }
+
 }
