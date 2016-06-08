@@ -37,6 +37,10 @@ section h2 {
     text-decoration: none;
 
 }
+.click h3{
+    color: darkgray;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 .header,
 .click{
     flex: 1;

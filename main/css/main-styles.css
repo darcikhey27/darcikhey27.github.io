@@ -35,6 +35,9 @@ body {
     text-decoration: none;
     outline: none;
 }
+.click h3{
+    color: whitesmoke;
+}
 
 /* header-nav styles */
 
